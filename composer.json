@@ -73,12 +73,6 @@
             "url": "https://repo.magento.com/"
         }
     ],
-    "http-basic": {
-        "repo.magento.com": {
-            "username": "b62c26f9da2a90d97eb6ee319e2db936",
-            "password": "d8748314cfa1575d640e3e09d9d8bdd3"
-        }
-    },
     "extra": {
         "magento-force": "override"
     }
