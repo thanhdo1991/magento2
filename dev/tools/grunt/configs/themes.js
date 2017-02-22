@@ -46,8 +46,7 @@ module.exports = {
         name: 'Thanhdo/magento_starter',
         locale: 'en_US',
         files: [
-            'css/styles-m',
-            'css/styles-l'
+            'css/styles',
         ],
         dsl: 'less'
     },
