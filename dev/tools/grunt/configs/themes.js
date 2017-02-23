@@ -41,12 +41,14 @@ module.exports = {
         ],
         dsl: 'less'
     },
-    starter: {
+    luma: {
         area: 'frontend',
-        name: 'Thanhdo/magento_starter',
+        name: 'Ha/ffw_theme',
         locale: 'en_US',
         files: [
-            'css/styles',
+            'css/styles-m',
+            'css/styles-l',
+            'css/print'
         ],
         dsl: 'less'
     },
