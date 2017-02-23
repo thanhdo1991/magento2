@@ -56,8 +56,7 @@ module.exports = {
         name: 'Myshop/clothes',
         locale: 'en_US',
         files: [
-            'css/styles-m',
-            'css/styles-l'
+            'css/demo'
         ],
         dsl: 'less'
     }
