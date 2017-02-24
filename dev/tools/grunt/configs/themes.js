@@ -41,6 +41,19 @@ module.exports = {
         ],
         dsl: 'less'
     },
+    bienvu: {
+        area: 'frontend',
+        name: 'FFW/bienvu',
+        locale: 'en_US',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/email',
+            'css/email-inline',
+            'css/demo'
+        ],
+        dsl: 'less'
+    },
     backend: {
         area: 'adminhtml',
         name: 'Magento/backend',
