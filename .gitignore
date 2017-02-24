@@ -42,6 +42,8 @@ atlassian*
 /pub/media/tmp/*
 !/pub/media/tmp/.htaccess
 /pub/media/captcha/*
+/pub/satatic/adminhtml
+/pub/satatic/_requirejs
 !/pub/static/.htaccess
 
 /var/*
