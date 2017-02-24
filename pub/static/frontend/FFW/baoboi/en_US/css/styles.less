@@ -1,0 +1,57 @@
+.customer-welcome .customer-menu {
+  display: none;
+}
+
+.customer-welcome.active .customer-menu {
+  display: block;
+}
+
+.customer-welcome.active ul {
+  display: block;
+  position: absolute;
+}
+
+.customer-welcome ul {
+  margin: 0;
+  padding: 0;
+  list-style: none none;
+  background: #fff;
+  border: 1px solid #bbb;
+  margin-top: 4px;
+  min-width: 100%;
+  z-index: 101;
+  box-sizing: border-box;
+  display: none;
+  top: 100%;
+  right: 0;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.15)
+}
+
+.customer-welcome {
+  display: inline-block;
+  position: relative;
+}
+
+.customer-welcome.active {
+  overflow: visible;
+}
+
+.customer-welcome li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  line-height: 1.4;
+  padding: 8px;
+}
+
+.header.panel > .header.links > .customer-welcome + .authorization-link {
+  display: none;
+}
+
+.header.panel > .header.links > li {
+  vertical-align: baseline !important;
+}
+
+.page-wrapper-custom {
+  padding: 50px 31px;
+}

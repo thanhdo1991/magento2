@@ -1,0 +1,21 @@
+.block-static-block img,
+.blocks-promo img {
+  width: 100%;
+  height: auto;
+}
+.sale-women,
+.sale-mens,
+.mens-pants,
+.womens-pants,
+.gear-fitnes,
+.gear-equipment,
+.new-performance,
+.new-eco {
+  max-width: inherit !important;
+}
+.page-layout-1column .block.widget .products-grid .product-item {
+  margin: 0 !important;
+  width: 25%!important;
+  padding: 0 20px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9wdWIvc3RhdGljL2Zyb250ZW5kL0ZGVy9iaWVudnUvZW5fVVMvY3NzL2RlbW8ubGVzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxtQkFFRTtBQURGLGFBQ0U7RUFDRSxXQUFBO0VBQ0EsWUFBQTs7QUFJSjtBQUFhO0FBQVk7QUFBYTtBQUFlO0FBQWM7QUFBaUI7QUFBa0I7RUFDcEcsNkJBQUE7O0FBR0Ysb0JBQXFCLE9BQU0sT0FBUSxlQUFlO0VBQ2hELG9CQUFBO0VBQ0Esb0JBQUE7RUFDQSxlQUFBIn0= */
