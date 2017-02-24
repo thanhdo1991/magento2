@@ -1,5 +1,40 @@
 @color-orange: #fffbbb;
+@color-white: #fff;
+@color-dark-green1: #006400;
 
-body {
+img {
+  width: 100%;
+}
+
+.page-header {
+  background: @color-white;
+}
+
+.nav-sections {
+  .navigation {
+    background: @color-orange;
+
+    li {
+      a {
+        font-weight: normal;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.copyright {
   background: @color-orange;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+a, .alink {
+  color: @color-dark-green1;
+
+  &:hover {
+    color: darken(@color-dark-green1, 15%)
+  }
 }
