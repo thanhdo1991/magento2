@@ -50,14 +50,5 @@ module.exports = {
             'css/styles'
         ],
         dsl: 'less'
-    },
-    starter: {
-        area: 'frontend',
-        name: 'Thanhdo/magento_starter',
-        locale: 'en_US',
-        files: [
-            'css/styles'
-        ],
-        dsl: 'less'
     }
 };
